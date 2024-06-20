@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    gap: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+   
+}
+
+.container{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    flex-direction: column;
+    padding: 33px;
+    margin: 33px;
+   
+
+}
+.img{
+    height: 174px;
+    width: 197px;
+    margin: 0px;}
+
+    .btn{
+        display: flex;
+        height: 51px;
+        width: 74px;
+        font-size: large;
+        background: aquamarine;
+        border-radius: 20px;
+
+    }
